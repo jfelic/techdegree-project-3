@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+    font-size: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background: #3a3f57;
+}
+header {
+    text-transform: uppercase;
+    color: white;
+    padding: 1.25rem;
+}
+
+::placeholder {
+    color:rgb(146, 146, 146);
+    text-align: right;
+    font-style: italic;
+    font-size: .9rem;
+}
+
+.p1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-bottom: double #3a3f57 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.p1 h1 {
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    color: #3a3f57;
+}
+
+.p1 p {
+    font-size: 1em;
+    text-align: center;
+    color: rgb(146, 146, 146);
+    margin-bottom: 2rem;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 0.5em; 
+    color: #3d73a8;
+    font-size: .97rem;
+}
+
+.text-input {
+    background: rgb(238, 238, 238);
+    border-radius: 3.5px;
+    width: 90%;
+    border: solid rgb(238, 238, 238) 2.5px;
+    text-align: left; 
+    padding: 10px;
+    
+}
+
+.contact-info h1 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    margin-left: 1rem;
+    color: #3a3f57;
+    font-size: 1.25rem;
+}
+
+.contact-info-form input {
+    margin-left: 5%;
+}
+
+.contact-info-form label {
+    margin-left: 5%;
+}
+
+.text-input:focus {
+    border: solid #3d73a8;
+    border-radius: 3.5px;
+    outline-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    
+}
