@@ -8,41 +8,60 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
-<script src="https://kit.fontawesome.com/b2d104bf6a.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>The Code Review</title>
 
 </head>
 <body>
+    
     <div class="header">
         <header>the code review</header>
     </div>
+    
     <div class="p1">
         
         <h1>Signup for our newsletter</h1>
         <p>Get the latest news on how your code is doing right in your inbox</p>
 
     </div>
-    <div class="contact-info">
-        <legend>Contact Information</legend>
-        <form class="contact-info-form">
+    
+
+        
+<form class="contact-info-form">
+        
+    <fieldset>
+                <legend>Contact Information</legend>
+        <div class="contact-info">  
+
+        <div class="name-div">
             <label for="name">Full Name</label>
             <input class="text-input" type="text" placeholder="Required" name="name" id="name">
+        </div>
 
+        <div class="email-div">
             <label for="email">Email Address</label>
             <input class="text-input" type="email" placeholder="Required" name="email" id="email">
+        </div>
             
+        <div class="phone-div">
             <label for="phone">Phone Number</label>
-            <input class="text-input" type="text" name="phone" id="phone">
-            
+            <input class="text-input" type="tel" name="phone" id="phone">
+        </div>
+        
+        <div class="address-div">
             <label for="address">Street Address</label>
             <input class="text-input" type="text" name="address" id="address">
-            
+        </div>
+        
+        <div class="city-div">
             <label for="city">City</label>
             <input class="text-input" type="text" name="city" id="city">
+        </div>
 
-            <label for="city">State</label>
-            <select name="city" id="city">
+        <div class="state-div">
+            <label for="state">State</label>
+            <select name="state" id="state">
                 <option value="-1">Choose State</option>
                 <option value="0" class="states">Alabama</option>
                 <option value="1" class="states">Alaska</option>
@@ -95,9 +114,72 @@
                 <option value="48" class="states">Wisconsin</option>
                 <option value="49" class="states">Wyoming</option>
             </select>
+        </div>
 
-            </form>
-    </div>
+        <div class="zip-div">
+            <label for="zip">Zip Code</label>
+            <input class="zip-input" type="text" name="city" id="zip">
+        </div>
+        </div>
+        
+    </fieldset>
+
+
+    
+    
+        <fieldset>
+        
+            <legend>Newsletter</legend>
+        <div class="newsletter p"> 
+            <p>Select the newsletters you would like to receive</p>
+        </div>
+
+        <div class="checkboxes">
+            
+            <div class="html-box">
+                <input type="checkbox" id="html" name="check" value="html">
+                <label for="html">HTML News</label>
+            </div>
+           
+            <div class="css-box">
+                <input type="checkbox" id="css" name="check" value="css">
+                <label for="css">CSS News</label>
+            </div>
+
+            <div class="java-box">
+                <input type="checkbox" id="java" name="check" value="java">
+                <label for="java">Javascript News</label>
+            </div>
+        </div>
+        
+        <p class="newsletter-p2">Newsletter format</p>
+
+        <div class="radios">   
+        <div class="html-radio">
+                <input type="radio" id="html-radio" name="html-radio" value="html2">
+                <label for="html-radio">HTML</label>
+            </div>
+
+            <div class="plain-radio">
+                <input type="radio" id="plain-text" name="plain-radio" value="plain-text">
+                <label for="plain-text">Plain text</label>
+            </div>
+
+            <div class="textarea2">
+                <label for="textarea2">Other topics you'd like to hear about</label>
+                <textarea id="textarea2" name="textarea2" rows="2" cols="4"></textarea>
+            </div>
+        </div> 
+            <div class="sign-up-button">
+                <button type="button">Sign Up</button>
+            </div>
+        
+    </fieldset>
+</form>
+
+            
+    <footer>Copyright The Code Review</footer>
+
 
 </body>
 </html>
