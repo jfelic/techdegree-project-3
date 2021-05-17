@@ -34,34 +34,34 @@
                 <legend>Contact Information</legend>
         <div class="contact-info">  
 
-        <div class="name-div">
+        <div class="name-div flex">
             <label for="name">Full Name</label>
-            <input class="text-input" type="text" placeholder="Required" name="name" id="name">
+            <input class="text-input focus" type="text" placeholder="Required" name="name" id="name">
         </div>
 
-        <div class="email-div">
+        <div class="email-div flex">
             <label for="email">Email Address</label>
-            <input class="text-input" type="email" placeholder="Required" name="email" id="email">
+            <input class="text-input focus" type="email" placeholder="Required" name="email" id="email">
         </div>
             
-        <div class="phone-div">
+        <div class="phone-div flex">
             <label for="phone">Phone Number</label>
-            <input class="text-input" type="tel" name="phone" id="phone">
+            <input class="text-input focus" type="tel" name="phone" id="phone">
         </div>
         
-        <div class="address-div">
+        <div class="address-div flex">
             <label for="address">Street Address</label>
-            <input class="text-input" type="text" name="address" id="address">
+            <input class="text-input focus" type="text" name="address" id="address">
         </div>
         
-        <div class="city-div">
+        <div class="city-div flex">
             <label for="city">City</label>
-            <input class="text-input" type="text" name="city" id="city">
+            <input class="text-input focus" type="text" name="city" id="city">
         </div>
 
-        <div class="state-div">
+        <div class="state-div flex">
             <label for="state">State</label>
-            <select name="state" id="state">
+            <select name="state" id="state" class="focus">
                 <option value="-1">Choose State</option>
                 <option value="0" class="states">Alabama</option>
                 <option value="1" class="states">Alaska</option>
@@ -116,9 +116,9 @@
             </select>
         </div>
 
-        <div class="zip-div">
+        <div class="zip-div flex">
             <label for="zip">Zip Code</label>
-            <input class="zip-input" type="text" name="city" id="zip">
+            <input class="zip-input focus" type="text" name="city" id="zip">
         </div>
         </div>
         
@@ -153,12 +153,12 @@
 
         <div class="radios">   
         <div class="html-radio">
-                <input type="radio" id="html-radio" name="html-radio" value="html2">
+                <input type="radio" id="html-radio" name="radiogroup" value="html2">
                 <label for="html-radio">HTML</label>
             </div>
 
             <div class="plain-radio">
-                <input type="radio" id="plain-text" name="plain-radio" value="plain-text">
+                <input type="radio" id="plain-text" name="radiogroup" value="plain-text">
                 <label for="plain-text">Plain text</label>
             </div>
 
